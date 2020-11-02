@@ -7,7 +7,7 @@ then
                 wage[$i]=`expr 8  \* 20  `
  #               echo "Daily wage : ${wage[i]}"
 else
-	wage[$i]=0
+        wage[$i]=0
 fi
 done
 echo "day  daily_wage"
