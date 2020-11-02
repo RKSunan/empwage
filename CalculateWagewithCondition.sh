@@ -25,11 +25,11 @@
         else
         full[$i]=0
         wage[$i]=0
-	hour[$i]=0
+	hour[$i]=$totalhour
         fi
 	fi
         done
-        echo "day  daily_wage  Total_wage    hour "
+        echo "day  daily_wage  Total_wage    Total_Hour "
         num=0
         for i in ${!wage[@]}
         do
